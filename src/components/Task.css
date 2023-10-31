@@ -1,0 +1,26 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.task input {
+  width: 400px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.task button {
+  padding: 10px;
+  background-color: rgb(51, 216, 10);
+  cursor: pointer;
+  color: black;
+  width: 125px;
+  font-weight: bold;
+  height: 42px;
+  border-radius: 5px;
+}
